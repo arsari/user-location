@@ -17,6 +17,7 @@ function createTable(data) {
   table += `${tr}</table>`;
 
   document.querySelector('#table').innerHTML += table;
+  console.table(data);
 }
 
 locationBtn.addEventListener('click', () => {
